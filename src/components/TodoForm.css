@@ -1,0 +1,56 @@
+/* styleing the input form */
+.note-input{
+    width: 350px;
+    height: 150px;
+    padding: 5px 7px;
+    text-align: justify;
+    background-color: rgba(0, 0, 255, 0.555);
+    resize: none;
+    border: none;
+    border-radius: 10px 3px;
+}
+
+.note-input:focus, .edit-note-input:focus{
+    outline: none;
+}
+
+.note-btn{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    border: none;
+    border-radius: 10px 3px;
+    background-color: rgba(0, 0, 255, 0.438);
+}
+
+.note-btn:hover{
+    cursor: pointer;
+    background-color: rgba(26, 26, 175, 0.603);
+}
+
+/* styling the Update note */
+
+.edit-note-input{
+    width: 300px;
+    height: 120px;
+    padding: 5px 7px;
+    text-align: justify;
+    background-color: rgba(95, 95, 247, 0.555);
+    resize: none;
+    border: none;
+    border-radius: 10px 3px;
+}
+
+.edit-note-btn{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    border: none;
+    border-radius: 10px 3px;
+    background-color: rgba(2, 2, 143, 0.438);
+}
+
+.edit-todo-btn:hover{
+    cursor: pointer;
+    background-color: rgba(15, 15, 71, 0.603);
+}
